@@ -93,16 +93,6 @@ const Navigation = () => {
           </div>
         </div>
       )}
-      
-      {/* Demo login toggle button (for demonstration purposes) */}
-      <div className="container mx-auto px-4 py-1 bg-gray-100 text-center text-xs">
-        <button 
-          onClick={toggleLogin} 
-          className="text-gray-600 underline"
-        >
-          (Demo: Toggle {isLoggedIn ? 'Logout' : 'Login'} Status)
-        </button>
-      </div>
     </nav>
   );
 };

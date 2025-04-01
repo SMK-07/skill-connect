@@ -27,7 +27,7 @@ const HeroBanner = () => {
                 </Button>
               </Link>
               <Link to="/signup">
-                <Button variant="outline" className="border-white text-white hover:bg-white/10 px-6 py-5 font-medium text-base flex items-center gap-2">
+                <Button variant="outline" className="border-white text-skillconnect-blue hover:bg-gray-100 px-6 py-5 font-medium text-base flex items-center gap-2">
                   <UserPlus size={18} />
                   Join as a Worker
                 </Button>
