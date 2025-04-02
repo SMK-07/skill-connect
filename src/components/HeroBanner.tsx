@@ -36,7 +36,7 @@ const HeroBanner = () => {
           </div>
 
           
-          <div className="md:w-1/2 flex justify-center animate-fadeIn">
+          {/* <div className="md:w-1/2 flex justify-center animate-fadeIn">
             <div className="relative w-full max-w-md">
               <div className="glass-card p-6 rounded-xl">
                 <h3 className="text-xl font-semibold mb-4">Popular Categories</h3>
@@ -53,7 +53,7 @@ const HeroBanner = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
