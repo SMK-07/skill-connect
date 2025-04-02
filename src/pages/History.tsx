@@ -184,7 +184,7 @@ const History = () => {
                           <div className="flex justify-between items-center">
                             <div>
                               <span className="text-gray-600">Total:</span>
-                              <span className="ml-2 font-semibold">${job.price}</span>
+                              <span className="ml-2 font-semibold">₹{job.price}</span>
                             </div>
                             
                             {job.rated ? (

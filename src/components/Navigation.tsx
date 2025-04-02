@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, User, Heart, Clock, Home } from 'lucide-react';
+import { Menu, X, User, Heart, Clock, Home, Briefcase } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
@@ -23,9 +23,9 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-2">
             <span className="bg-blue-gradient text-white p-2 rounded-md">
-              <Home size={20} />
+              <Briefcase size={20}/>
             </span>
-            <span className="font-bold text-xl text-skillconnect-black">
+            <span className="font-bold text-xl text-skillconnect-black tracking-wider ">
               SkillConnect
             </span>
           </Link>

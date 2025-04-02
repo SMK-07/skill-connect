@@ -71,8 +71,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 mr-4 mt-1" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="mt-1">+1 (555) 123-4567</p>
-                    <p className="mt-1">+1 (555) 987-6543</p>
+                    <p className="mt-1">+91- 80884 51875 </p>
                   </div>
                 </div>
                 
@@ -81,15 +80,15 @@ const Contact = () => {
                   <div>
                     <h3 className="font-medium">Office</h3>
                     <p className="mt-1">
-                      1234 Main Street<br />
-                      Suite 500<br />
-                      New York, NY 10001
+                      Near ADYPU campus<br />
+                      Lohegaon<br />
+                      Pune, Maharashtra 411015
                     </p>
                   </div>
                 </div>
               </div>
               
-              <div className="mt-12">
+              {/* <div className="mt-12">
                 <h3 className="font-medium mb-3">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full">
@@ -108,7 +107,7 @@ const Contact = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             
             {/* Contact Form */}

@@ -27,7 +27,7 @@ const steps = [
   {
     id: 4,
     title: "Rate",
-    description: "Leave feedback after job completion",
+    description: "Leave feedback after job completion to help us improve",
     icon: Star,
     color: "bg-amber-100 text-amber-600"
   }
