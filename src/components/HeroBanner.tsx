@@ -34,25 +34,6 @@ const HeroBanner = () => {
               </Link>
             </div>
           </div>
-          
-          <div className="md:w-1/2 flex justify-center animate-fadeIn">
-            <div className="relative w-full max-w-md">
-              <div className="glass-card p-6 rounded-xl">
-                <h3 className="text-xl font-semibold mb-4">Popular Categories</h3>
-                <div className="grid grid-cols-2 gap-3">
-                  {['Plumber', 'Electrician', 'Carpenter', 'Painter', 'Gardener', 'Cleaner'].map((category) => (
-                    <Link
-                      key={category}
-                      to={`/category/${category.toLowerCase()}`}
-                      className="bg-white/70 hover:bg-white text-skillconnect-blue rounded-lg py-3 px-4 text-center transition-colors"
-                    >
-                      {category}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

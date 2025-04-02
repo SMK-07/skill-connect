@@ -58,7 +58,7 @@ const CategorySection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {categories.map((category) => (
             <Link 
-              to={`/category/${category.name.toLowerCase()}`} 
+              to={`/workers`} 
               key={category.id}
               className="bg-white rounded-xl p-6 card-shadow flex flex-col hover:border-skillconnect-blue-light border-2 border-transparent transition-colors"
             >
