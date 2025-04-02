@@ -20,7 +20,7 @@ const CallToAction = () => {
             </Button>
           </Link>
           <Link to="/workers">
-            <Button variant="outline" className="border-white text-white hover:bg-white/10 px-6 py-6 font-medium text-base flex items-center gap-2">
+            <Button variant="outline" className="bg-white text-skillconnect-blue hover:bg-gray-100 px-6 py-6 font-medium text-base flex items-center gap-2">
               Browse Workers
               <ArrowRight size={18} />
             </Button>
