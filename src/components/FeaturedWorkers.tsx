@@ -21,7 +21,7 @@ const workers: Worker[] = [
     profession: "Plumber",
     location: "New York City, NY",
     rating: 4.8,
-    photo: "https://randomuser.me/api/portraits/men/32.jpg",
+    photo: "https://randomuser.me/api/portraits/men/72.jpg",
     available: true
   },
   {
@@ -30,7 +30,7 @@ const workers: Worker[] = [
     profession: "Electrician",
     location: "Los Angeles, CA",
     rating: 4.9,
-    photo: "https://randomuser.me/api/portraits/women/44.jpg",
+    photo: "https://randomuser.me/api/portraits/women/63.jpg",
     available: true
   },
   {
@@ -39,7 +39,7 @@ const workers: Worker[] = [
     profession: "Carpenter",
     location: "Chicago, IL",
     rating: 4.7,
-    photo: "https://randomuser.me/api/portraits/men/67.jpg",
+    photo: "https://randomuser.me/api/portraits/men/70.jpg",
     available: false
   },
   {
@@ -48,7 +48,7 @@ const workers: Worker[] = [
     profession: "Painter",
     location: "Houston, TX",
     rating: 4.9,
-    photo: "https://randomuser.me/api/portraits/women/37.jpg",
+    photo: "https://randomuser.me/api/portraits/women/73.jpg",
     available: true
   }
 ];

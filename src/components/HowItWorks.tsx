@@ -52,11 +52,11 @@ const HowItWorks = () => {
                 <h3 className="text-xl font-semibold mb-3">{step.title}</h3>
                 <p className="text-gray-600">{step.description}</p>
               </div>
-              {step.id < steps.length && (
+              {/* {step.id < steps.length && (
                 <div className="hidden lg:block absolute transform translate-x-24">
                   <div className="h-0.5 w-16 bg-gray-300 mt-10"></div>
                 </div>
-              )}
+              )} */}
             </div>
           ))}
         </div>

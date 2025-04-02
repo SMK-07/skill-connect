@@ -13,10 +13,32 @@ const worker = {
   location: "New York City, NY",
   joinedDate: "March 2020",
   rating: 4.8,
-  reviews: 124,
+  reviews: [
+    {
+      id: 1,
+      author: "Sarah Johnson",
+      date: "2 weeks ago",
+      rating: 5,
+      comment: "John was excellent! He fixed our leaky sink quickly and was very professional. Would definitely hire again."
+    },
+    {
+      id: 2,
+      author: "Michael Brown",
+      date: "1 month ago",
+      rating: 5,
+      comment: "Fixed our water heater issue on the same day we called. Very knowledgeable and reasonably priced."
+    },
+    {
+      id: 3,
+      author: "Emily Davis",
+      date: "2 months ago",
+      rating: 4,
+      comment: "Good work replacing our bathroom fixtures. Very thorough and cleaned up everything after the job."
+    }
+  ],
   completedJobs: 156,
   bio: "Professional plumber with over 10 years of experience in residential and commercial plumbing. Specializing in repairs, installations, and maintenance of plumbing systems.",
-  photo: "https://randomuser.me/api/portraits/men/32.jpg",
+  photo: "https://randomuser.me/api/portraits/men/72.jpg",
   available: true,
   phone: "+1 (555) 123-4567",
   email: "john.smith@example.com",
@@ -35,7 +57,7 @@ const worker = {
       period: "2012 - 2018"
     }
   ],
-  reviews: [
+  customerReviews: [
     {
       id: 1,
       author: "Sarah Johnson",
@@ -98,7 +120,7 @@ const WorkerProfile = () => {
                       <div className="flex items-center">
                         <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
                         <span className="ml-1 font-medium">{worker.rating}</span>
-                        <span className="ml-1 text-gray-500">({worker.reviews} reviews)</span>
+                        <span className="ml-1 text-gray-500">({worker.reviews.length} reviews)</span>
                       </div>
                       <div className="ml-4 flex items-center text-gray-600">
                         <MapPin className="h-4 w-4 mr-1" />
@@ -221,7 +243,7 @@ const WorkerProfile = () => {
                     <div className="flex items-center">
                       <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
                       <span className="ml-1 font-medium">{worker.rating}</span>
-                      <span className="ml-1 text-gray-500">({worker.reviews} reviews)</span>
+                      <span className="ml-1 text-gray-500">({worker.reviews.length} reviews)</span>
                     </div>
                   </div>
                   

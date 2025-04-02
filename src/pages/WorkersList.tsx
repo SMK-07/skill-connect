@@ -16,7 +16,7 @@ const workersData = [
     distance: "2.5 miles",
     rating: 4.8,
     reviews: 124,
-    photo: "https://randomuser.me/api/portraits/men/32.jpg",
+    photo: "https://randomuser.me/api/portraits/men/72.jpg",
     available: true,
     hourlyRate: 60
   },
@@ -28,7 +28,7 @@ const workersData = [
     distance: "1.8 miles",
     rating: 4.9,
     reviews: 89,
-    photo: "https://randomuser.me/api/portraits/women/44.jpg",
+    photo: "https://randomuser.me/api/portraits/women/63.jpg",
     available: true,
     hourlyRate: 65
   },
@@ -40,7 +40,7 @@ const workersData = [
     distance: "3.2 miles",
     rating: 4.7,
     reviews: 56,
-    photo: "https://randomuser.me/api/portraits/men/67.jpg",
+    photo: "https://randomuser.me/api/portraits/men/70.jpg",
     available: false,
     hourlyRate: 55
   },
@@ -52,7 +52,7 @@ const workersData = [
     distance: "4.1 miles",
     rating: 4.9,
     reviews: 42,
-    photo: "https://randomuser.me/api/portraits/women/37.jpg",
+    photo: "https://randomuser.me/api/portraits/women/73.jpg",
     available: true,
     hourlyRate: 50
   },
@@ -64,7 +64,7 @@ const workersData = [
     distance: "2.9 miles",
     rating: 4.6,
     reviews: 78,
-    photo: "https://randomuser.me/api/portraits/men/52.jpg",
+    photo: "https://randomuser.me/api/portraits/men/54.jpg",
     available: true,
     hourlyRate: 58
   },
@@ -76,7 +76,7 @@ const workersData = [
     distance: "1.5 miles",
     rating: 4.8,
     reviews: 65,
-    photo: "https://randomuser.me/api/portraits/women/28.jpg",
+    photo: "https://randomuser.me/api/portraits/women/80.jpg",
     available: true,
     hourlyRate: 63
   }

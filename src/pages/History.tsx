@@ -26,7 +26,7 @@ const jobsData: Job[] = [
     title: "Leaking Sink Repair",
     workerName: "John Smith",
     workerId: 1,
-    workerPhoto: "https://randomuser.me/api/portraits/men/32.jpg",
+    workerPhoto: "https://randomuser.me/api/portraits/men/72.jpg",
     date: "June 15, 2023",
     location: "123 Main St, New York",
     status: "completed",
@@ -39,7 +39,7 @@ const jobsData: Job[] = [
     title: "Electrical Panel Installation",
     workerName: "Maria Rodriguez",
     workerId: 2,
-    workerPhoto: "https://randomuser.me/api/portraits/women/44.jpg",
+    workerPhoto: "https://randomuser.me/api/portraits/women/63.jpg",
     date: "May 28, 2023",
     location: "456 Oak Ave, New York",
     status: "completed",
@@ -52,7 +52,7 @@ const jobsData: Job[] = [
     title: "Kitchen Cabinet Repair",
     workerName: "David Johnson",
     workerId: 3,
-    workerPhoto: "https://randomuser.me/api/portraits/men/67.jpg",
+    workerPhoto: "https://randomuser.me/api/portraits/men/70.jpg",
     date: "Today at 3:00 PM",
     location: "789 Pine Rd, New York",
     status: "pending"
@@ -62,7 +62,7 @@ const jobsData: Job[] = [
     title: "Bathroom Wall Painting",
     workerName: "Sarah Williams",
     workerId: 4,
-    workerPhoto: "https://randomuser.me/api/portraits/women/37.jpg",
+    workerPhoto: "https://randomuser.me/api/portraits/women/73.jpg",
     date: "Cancelled on June 5, 2023",
     location: "321 Cedar St, New York",
     status: "cancelled"
@@ -184,7 +184,7 @@ const History = () => {
                           <div className="flex justify-between items-center">
                             <div>
                               <span className="text-gray-600">Total:</span>
-                              <span className="ml-2 font-semibold">₹{job.price}</span>
+                              <span className="ml-2 font-semibold">${job.price}</span>
                             </div>
                             
                             {job.rated ? (

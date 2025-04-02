@@ -16,7 +16,7 @@ const favoritesData = [
     location: "New York City, NY",
     rating: 4.8,
     reviews: 124,
-    photo: "https://randomuser.me/api/portraits/men/32.jpg",
+    photo: "https://randomuser.me/api/portraits/men/72.jpg",
     available: true
   },
   {
@@ -26,7 +26,7 @@ const favoritesData = [
     location: "Los Angeles, CA",
     rating: 4.9,
     reviews: 89,
-    photo: "https://randomuser.me/api/portraits/women/44.jpg",
+    photo: "https://randomuser.me/api/portraits/women/63.jpg",
     available: true
   },
   {
@@ -36,7 +36,7 @@ const favoritesData = [
     location: "Phoenix, AZ",
     rating: 4.6,
     reviews: 78,
-    photo: "https://randomuser.me/api/portraits/men/52.jpg",
+    photo: "https://randomuser.me/api/portraits/men/54.jpg",
     available: true
   }
 ];
